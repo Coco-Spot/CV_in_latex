@@ -26,7 +26,7 @@ WORKDIR /latex
 
 # Copy LaTeX files
 COPY main.tex /latex/
-COPY avatar.jpg /latex/
+COPY img/avatar.jpg /latex/
 
 # Command to build the CV
 CMD ["pdflatex", "main.tex"]
